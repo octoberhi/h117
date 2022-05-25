@@ -1,0 +1,31 @@
+body{
+background-color: deepskyblue;
+}
+
+h1{
+background-color: gold;
+color: crimson;
+}
+
+#Button{
+float: right;
+}
+
+canvas{
+border: 5px;
+border-radius: 20px;
+margin-top: 50px;
+animation-name: animation;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+@keyframes animation{
+from{box-shadow: 1px 1px 38px gold};
+to{box-shadow: 1px 1px 38px rgb(100, 12, 215)};
+}
+
+p{
+padding-top: 10px;
+font-size: 25px;
+}
